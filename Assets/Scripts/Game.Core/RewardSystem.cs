@@ -14,9 +14,6 @@ namespace Game.Core
             int r = Calculate(c, b, isEvent, diff);
             r = CalculateGrade(t, r);
             return Record(r);
-
-            // int oldR = c * 8;   // 예전 공식 (혹시 몰라 남겨 둠)
-            // if (isEvent) oldR = oldR * 2;
         }
 
         private int Record(int r)
